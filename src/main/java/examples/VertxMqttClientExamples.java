@@ -60,7 +60,7 @@ public class VertxMqttClientExamples {
    */
   public void example3(MqttClient client) {
     client.publish("temperature",
-      Buffer.buffer("hello"),
+      Buffer.buffer("hello my darling"),
       MqttQoS.AT_LEAST_ONCE,
       false,
       false);
